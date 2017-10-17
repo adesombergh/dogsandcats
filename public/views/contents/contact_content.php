@@ -5,10 +5,10 @@
 	<div class="section" id="contact" data-anchor="section1">
 		<div class="row" style="height: 60px">
 			<div class="col-sm-8 col-sm-offset-2">
-				<?php if (isset($result)): ?>
-				<div class="alert <?php echo $result['status']=='success' ? 'alert-success' : 'alert-danger' ?>">
+				<?php if (isset($request_result)): ?>
+				<div class="alert <?php echo $request_result['status']=='success' ? 'alert-success' : 'alert-danger' ?>">
 					<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-					<?php echo $result['message']; ?>
+					<?php echo $request_result['message']; ?>
 				</div>
 				<?php endif ?>
 			</div>

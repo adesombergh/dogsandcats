@@ -1,5 +1,5 @@
 <?php 
-function catchPost(){
+function catchPostAction(){
 	if (!empty($_POST))
 	{
 

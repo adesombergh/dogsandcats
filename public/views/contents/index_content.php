@@ -21,7 +21,7 @@
 			<p>Un animal peut améliorer votre humeur au quotidien.</p>
 		</div>
 		<div class="col-sm-6">
-			<img src="assets/images/enfant-chien.jpg" alt="" class="img-responsive" >
+			<img src="public/assets/images/enfant-chien.jpg" alt="" class="img-responsive" >
 		</div>
 	</div>
 
@@ -29,7 +29,7 @@
 
 	<div class="section" id="third" data-anchor="section3">
 		<div class="col-sm-6">
-			<img src="assets/images/funny-dog.jpg" alt="" class="img-responsive" >
+			<img src="public/assets/images/funny-dog.jpg" alt="" class="img-responsive" >
 		</div>
 		<div class="col-sm-6">
 			<h3>Avantages</h3>
@@ -45,7 +45,7 @@
 			<p>On vous aire à choisir votre type d'animal. N'hésitez pas à nous <a href="contact.php">contacter</a></p>
 		</div>
 		<div class="col-sm-6">
-			<img src="assets/images/cat-and-dog.jpg" alt="" class="img-responsive" >
+			<img src="public/assets/images/cat-and-dog.jpg" alt="" class="img-responsive" >
 		</div>
 	</div>
 
