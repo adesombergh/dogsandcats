@@ -1,5 +1,5 @@
 <?php 
-function catchGetAction(){
+function catchGet(){
 	$request = array(
 		'page' => 'index',
 		'filter' => 'all'
@@ -16,4 +16,7 @@ function catchGetAction(){
 	}
 	return $request;
 }
+
+
+
 ?>
