@@ -1,12 +1,12 @@
 <?php
+/*
+* PRE-REQUIS
+*/
 // VARIABLES de configuration.
 include_once 'app/config.php';
 
 // OUTILs pour débuguer
 include_once 'tools.php';
-
-// CONFIGURATION de la Base de donnée.
-//include_once 'database/db.php';
 
 // Remplissage automatique de la base de donnée avec des trucs bidons.
 include_once 'database/seeder.php';
@@ -21,7 +21,7 @@ $demande = traitementUrl();
 
 // TRAITEMENT DES REQUETES GET.
 include_once 'app/faireDemande.php';
-$query = faireDemande($demande);
+$liste = faireDemande($demande);
 
 // TRAITEMENT DES REQUETES POST.
 include_once 'app/post_actions.php';
@@ -29,6 +29,10 @@ $postResults = catchPostAction();
 
 // GENERATEUR DES PAGES.
 include_once 'app/renderer.php';
-render( $demande, $query, $postResults );
+render( $demande, $liste, $postResults );
+
+
+
+
 
 ?>

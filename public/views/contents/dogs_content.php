@@ -14,7 +14,7 @@
 				</ul>
 			</nav>
 			<div id="galerie">
-				<?php foreach ($requete as $dog): ?>
+				<?php foreach ($dogs as $dog): ?>
 					<div class="col-xs-6 col-md-3">
 						<div class="thumbnail">
 							<a href=""><img src="http://via.placeholder.com/320x240/" alt="Cute Dog" /></a>

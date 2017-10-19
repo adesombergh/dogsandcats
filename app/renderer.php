@@ -1,7 +1,11 @@
 <?php
-function render($demande,$requete,$post_result){
+function render($demande,$liste,$post_result){
 	$page = $demande['page'];
 	$filtre = $demande['filter'];
+
+
+	$$page = $liste;
+
 
 	include_once('public/views/head.php');
 
