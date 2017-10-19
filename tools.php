@@ -8,7 +8,7 @@ function dd($var)
 function dump($var)
 {
 	echo "<pre>";
-	var_dump($var);
+	print_r($var);
 	echo "</pre>";
 };
  ?>

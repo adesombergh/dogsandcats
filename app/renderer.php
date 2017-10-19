@@ -1,7 +1,7 @@
 <?php
-function render($request,$query,$post_result){
-	$page = $request['page'];
-	$filtre = $request['filter'];
+function render($demande,$requete,$post_result){
+	$page = $demande['page'];
+	$filtre = $demande['filter'];
 
 	include_once('public/views/head.php');
 

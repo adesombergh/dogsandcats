@@ -1,5 +1,5 @@
 <?php 
-function catchGet(){
+function traitementUrl(){
 	$request = array(
 		'page' => 'index',
 		'filter' => 'all',
@@ -29,7 +29,6 @@ function catchGet(){
 			$request['filter'] = explode('.',  $_GET['filter'])[0];
 		} 
 	}
-
 	return $request;
 }
 

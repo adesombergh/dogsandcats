@@ -11,7 +11,7 @@
 						<span class="icon-bar"></span>
 					</button>
 					<a class="navbar-brand" href="index.php">
-						<img src="public/assets/images/logo4.svg">
+						<img src="<?php echo SITE_URL.IMAGES_PATH ?>logo4.svg">
 					</a>
 					<a class="navbar-brand big-title" href="index.php">
 						Chats &amp; Chiens
