@@ -11,13 +11,15 @@ include_once 'tools.php';
 // Remplissage automatique de la base de donnée avec des trucs bidons.
 include_once 'database/seeder.php';
 
-
 /*
 * DEBUT DE LA MAGIE
 */
 // TRAITEMENT DE L'URL.
 include_once 'app/traitementUrl.php';
 $demande = traitementUrl();
+
+include_once 'app/lang.php';
+setLang($demande['lang']);
 
 // TRAITEMENT DES REQUETES GET.
 include_once 'app/faireDemande.php';

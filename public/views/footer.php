@@ -8,8 +8,8 @@
 		</ul>
 		<p class="navbar-text">© Copyright Andrei Ciobanascu</p>
 		<ul class="nav navbar-nav navbar-right">
-			<li><a href="#">FR</a></li>
-			<li><a href="#">EN</a></li>
+			<li><a href="<?php echo SITE_URL.'fr_FR/'.$page.'.php' ?>">FR</a></li>
+			<li><a href="<?php echo SITE_URL.'en_EN/'.$page.'.php' ?>">EN</a></li>
 		</ul>
 	  </div>
 	</nav>

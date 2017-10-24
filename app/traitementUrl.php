@@ -3,7 +3,7 @@ function traitementUrl(){
 	$request = array(
 		'page' => 'index',
 		'filter' => 'all',
-		'lang' => 'fr'
+		'lang' => 'fr_FR'
 	);
 	if (!empty($_GET)){
 
@@ -17,8 +17,7 @@ function traitementUrl(){
 					$file = explode('/',  $_GET['querying'])[1];
 					$request['page'] = explode('.',  $file)[0];
 				} else {
-					$request['lang'] = 'fr';
-
+					$request['lang'] = 'fr_FR';
 					$request['page'] = explode('.',  $_GET['querying'])[0];
 				}
 			}
